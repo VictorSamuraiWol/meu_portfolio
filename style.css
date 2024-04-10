@@ -5,11 +5,11 @@ coloque nas sessões indicadas*/
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-   --cor-da-section: #EAF2FD;
-   --cor-primaria: #464646;
-   --cor-cards: #FFFFFF;
+    --cor-de-link: #000;
+    --cor-de-fundo: #EEEEEE;
+    --cor-cards: #393E46;
+    --cor-da-section: #222831;
+    --cor-primaria:  #00ADB5;
 }
 
 body {
@@ -258,6 +258,7 @@ section.academic{
     height: 286px;
     width: 350px;
     background-color: var(--cor-cards);
+    border-radius: 16px;
 }
 
 .imgCards {
@@ -427,6 +428,13 @@ utilize como referência os breakpoints @media abaixo*/
 /*Tablet*/
 @media (min-width: 768px) {
 
+:root {
+    --cor-de-link: #000;
+    --cor-de-fundo: #FFF2D8;
+    --cor-cards: #EAD7BB;
+    --cor-da-section: #BCA37F;
+    --cor-primaria: #113946;
+}
 /* Menu */
 
 /*title*/
