@@ -111,20 +111,12 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 12px;
     }
 
-    .menu nav a {
-        font-size: 12px;
-    }
-
     .title h2 {
         font-size: 24px;
     }
 
     .title__subsection {
         font-size: 12px; 
-    }
-
-    .title__network {
-        font-size: 12px;
     }
 
     .title__profile {
@@ -166,16 +158,6 @@ utilize como referência os breakpoints @media abaixo*/
         justify-content: space-between;
         align-items: center;
         width: auto;
-    }
-
-    .academic__title {
-        font-size: 22px;
-    }
-
-    .academic__courses {
-        justify-content: center;
-        width: 130%;
-        gap: 16px;
     }
 
     .academic__courses__box {
@@ -534,11 +516,6 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 12px;
     }
     
-    .title__profile {
-        height: 150px;
-        width: 150px;
-    }
-
     section.about {
         padding: 0 20px;
     }
@@ -549,18 +526,6 @@ utilize como referência os breakpoints @media abaixo*/
         text-align: center;
     }
 
-    .about__title {
-        font-size: 18px;
-    }
-
-    .about__paragraph {
-        font-size: 12px;
-    }
-    
-    .skills__title {
-        font-size: 18px;
-    }
-    
     .skills__line {
         justify-content: center;
     }   
@@ -569,14 +534,6 @@ utilize como referência os breakpoints @media abaixo*/
         width: 150px;
     }
     
-    .skills__box ul {
-        top: 50px;
-    }
-
-    .skills__name {
-        font-size: 12px;
-    }
-        
     .hobbies__title {
         font-size: 18px;
     }
@@ -589,23 +546,11 @@ utilize como referência os breakpoints @media abaixo*/
         width: 150px;
     }
     
-    .hobbies__box ul {
-        top: 60px;
-    }
-
-    .hobbies__name {
-        font-size: 12px;
-    }
-    
     .academic {
         justify-content: space-between;
         align-items: center;
         height: auto;
         width: auto;
-    }
-    
-    .academic__title {
-        font-size: 18px;
     }
     
     .academic__courses {
@@ -635,30 +580,9 @@ utilize como referência os breakpoints @media abaixo*/
         top: 40px;
     }
     
-    #buttonCertificado {
-        font-size: 12px;
-        padding: 12px;
-        margin-top: 4px;
-    }
-    
-    #cursos img {
-        top: 30px;
-        left: 50px;
-        height: 50%;
-        width: 40%;
-    }
-
     #cursosImg {
         height: 176px;
         width: 150px;
-    }
-    
-    .academic__courses__item__title h4 {
-        font-size: 14px;
-    }
-    
-    .academic__courses__item__subtitle p {
-        font-size: 12px;
     }
     
     .experience__section__title {
@@ -681,14 +605,6 @@ utilize como referência os breakpoints @media abaixo*/
         width: 130%;
     }
     
-    .experience__title {
-        font-size: 14px;
-    }
-    
-    .experience__text {
-        font-size: 12px;
-    }
-    
     .experiencia__botao--repo.button1 {
         font-size: 12px;
         padding: 12px;
@@ -704,19 +620,4 @@ utilize como referência os breakpoints @media abaixo*/
     .formcontato__img {
         display: none;  
     }
-    
-    .formcontato__title {
-        font-size: 18px;
-    }
-    
-    .formcontato__subtext {
-        font-size: 12px;
-    }
-    
-    .formcontato__botao {
-        font-size: 12px;
-        padding: 12px;
-        margin-top: 4px;
-    }
-
 }
