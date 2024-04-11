@@ -14,6 +14,8 @@
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     
+    <!--JavaScript interação-->
+    <script src="./interacao.js" defer></script>
     <title>Portfólio Pessoal</title>
 </head>
 <body>
@@ -26,12 +28,12 @@
         </header>
         <nav>
             <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
-                <li class="menu__list__item"><a href="#xp">Experiência e Projetos</a></li>
-                <li class="menu__list__item bold"><a href="#contato">victorclmatos@gmail.com</a></li>
+                <li class="menu__list__item"><a href="#sobremim" id="nav-sobre-mim">Sobre mim</a></li>
+                <li class="menu__list__item"><a href="#skills" id="nav-skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies" id="nav-hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacao" id="nav-formacao">Formações e Cursos</a></li>
+                <li class="menu__list__item"><a href="#xp" id="nav-exp-projetos">Experiência e Projetos</a></li>
+                <li class="menu__list__item bold"><a href="#contato" id="nav-email">victorclmatos@gmail.com</a></li>
             </ul>
         </nav>
     </section>
@@ -40,7 +42,7 @@
     <section class="title">
         <div class="title__div">
             <div class="title__container" id="#sobremim">
-                <h2 class="title__bio">Olá, meu nome é Victor Cardoso Lima Matos e construo páginas web</h2>
+                <h2 class="title__bio">Olá, meu nome é Victor Cardoso Lima Matos, construo páginas web e sou certificado AWS Cloud Practitioner pela Amazon Web Services</h2>
                 <h3 class="title__subsection">Eu sou formado em Educação Física Bacharelado pela Universidade Federal do Ceará (UFC) e Telemática pela Faculdade Integrada do Ceará (FIC/Estácio) e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
                 <ul class="title__network">
                     <!-- Ponha os links de suas redes sociais favoritas -->
@@ -228,26 +230,29 @@
                 </ul>
             </div>
         </div>
+    </section>
         <!--repeti abaixo o mesmo html de cima com as mesmas classes para a sessão certificação-->
-        <section class="academic">
-            <h2 class="academic__title" id="formacao">Certificação</h2>
-            <div class="academic__courses">
-                <div class="academic__courses__box">
-                    <ul class="academic__courses__list">
-                        <!-- Insira a logo de seu local de formação -->
-                        <li class="academic__courses__item__img"><img src="./assets/aws-certified-cloud-practitioner.png" class="imgCards"></li>
-                        <li class="academic__courses__item__title"><h4>Amazon Web Services</h4></li>
-                        <li class="academic__courses__item__subtitle"><p>2023 - AWS Cloud Practitioner<br><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/afb25c8d765046ce82fba46a62ff9f67" target="_blank"><button class="button2" id="buttonCertificado">Credencial</button></a></p></li>
-                    </ul>
-                </div>
+    <section class="academic">
+        <h2 class="academic__title" id="formacao">Certificação</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Insira a logo de seu local de formação -->
+                    <li class="academic__courses__item__img"><img src="./assets/aws-certified-cloud-practitioner.png" class="imgCards"></li>
+                    <li class="academic__courses__item__title"><h4>Amazon Web Services</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2023 - AWS Cloud Practitioner<br><a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/afb25c8d765046ce82fba46a62ff9f67" target="_blank"><button class="button2" id="buttonCertificado">Credencial</button></a></p></li>
+                </ul>
             </div>
+        </div>
+    </section>
         <!--repeti abaixo o mesmo html de cima com as mesmas classes para a sessão cursos-->
+    <section class="academic">
         <h2 class="academic__title" id="certificacao">Cursos</h2>
         <div class="academic__courses scroll" id="cursos">
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="./assets/imagemAlura.png" class="imgCards"></li>
+                    <li class="academic__courses__item__img" id="cursosImg"><img src="./assets/imagemAlura.png" class="imgCards"></li>
                     <li class="academic__courses__item__title"><h4>Especialização Front-End</h4></li>
                     <li class="academic__courses__item__subtitle"><p>Em andamento - Alura/Oracle</p></li>
                 </ul>
@@ -255,7 +260,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="./assets/cc50Icon.jpg" class="imgCards"></li>
+                    <li class="academic__courses__item__img" id="cursosImg"><img src="./assets/cc50Icon.jpg" class="imgCards"></li>
                     <li class="academic__courses__item__title"><h4>Ciência da Computação (CC50)</h4></li>
                     <li class="academic__courses__item__subtitle"><p>Em andamento - Fundação Educar/Ifood/Havard</p></li>
                 </ul>
@@ -263,7 +268,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="./assets/prozIcon.png" class="imgCards"></li>
+                    <li class="academic__courses__item__img" id="cursosImg"><img src="./assets/prozIcon.png" class="imgCards"></li>
                     <li class="academic__courses__item__title"><h4>Extensão Front-End</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2024 - Proz/AWS</p></li>
                 </ul>
@@ -271,7 +276,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="./assets/dioIcon.png" class="imgCards"></li>
+                    <li class="academic__courses__item__img" id="cursosImg"><img src="./assets/dioIcon.png" class="imgCards"></li>
                     <li class="academic__courses__item__title"><h4>Programação do Zero</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2024 - DIO/Potência Tech by Ifood</p></li>
                 </ul>
@@ -279,7 +284,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="./assets/escolanuvemIcon.png" class="imgCards"></li>
+                    <li class="academic__courses__item__img" id="cursosImg"><img src="./assets/escolanuvemIcon.png" class="imgCards"></li>
                     <li class="academic__courses__item__title"><h4>Fundamentos de AWS</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2023 - Escola da Nuvem/AWS</p></li>
                 </ul>
@@ -287,7 +292,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src="./assets/awscloudIcon.png" class="imgCards"></li>
+                    <li class="academic__courses__item__img" id="cursosImg"><img src="./assets/awscloudIcon.png" class="imgCards"></li>
                     <li class="academic__courses__item__title"><h4>AWS Cloud Practitioner Essentials</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2023 - AWS Training and Certification</p></li>
                 </ul>
@@ -312,7 +317,7 @@
             </div>
         </div>  
 
-        <div class="experiencie__box">
+        <div class="experiencie__box" id="decodificadorTexto">
             <!-- Insira a logo/captura de seu projeto/trabalho -->
             <div class="experience__info">
                 <h2 class="experience__title">Decodificador de texto</h2>
@@ -340,7 +345,7 @@
             </div>
         </div>  
 
-        <div class="experiencie__box">
+        <div class="experiencie__box" id="siteGames">
             <!-- Insira a logo de seu projeto/trabalho -->
             <div class="experience__info">
                 <h2 class="experience__title">Site de Games</h2>
@@ -359,7 +364,7 @@
     <section class="formcontato">
         <div id="contato" class="formcontato__contacto">
             <div class="formcontato--esquerda">
-                <img class="formcontato__img" src="assets\contact_image.png">
+                <img class="formcontato__img" src="assets/cupheadGift.gif">
             </div>
             <div class="formcontato__text">
                 <h2 class="formcontato__title">Contato</h2>
