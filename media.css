@@ -635,4 +635,12 @@ utilize como referência os breakpoints @media abaixo*/
         left: 34px;
         top: 32px;
     }
+
+    .about__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 55px;
+    }
 }
