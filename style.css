@@ -250,6 +250,7 @@ section.academic{
 
 .academic__courses {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     height: 400px;
 }
@@ -266,6 +267,7 @@ section.academic{
     background-color: var(--cor-cards);
     filter: drop-shadow(2px 2px 1px var(--cor-primaria));
     border-radius: 16px;
+
 }
 
 .imgCards {
@@ -279,7 +281,7 @@ section.academic{
 .academic__courses__item__title h4 {
     font-size: 22px;
     font-weight: bold;
-    margin: 8px 0px;
+    margin: 16px 0px;
     text-align: center;
 }
 
@@ -288,6 +290,10 @@ section.academic{
     font-weight: lighter;
     margin-top: 8px;
     text-align: center;
+}
+
+#buttonCertificado {
+    margin-top: 5px;
 }
 
 /* experiência*/
@@ -412,7 +418,7 @@ section.formcontato{
     border: 1px solid var(--cor-primaria);
     border-radius: 16px;
     padding: 16px;
-    margin: 0px 5px;
+    transition: 0.3s;
 }
 
 .button2 {
@@ -420,9 +426,10 @@ section.formcontato{
     font-weight: normal;
     color: var(--cor-de-fundo);
     background-color: var(--cor-primaria);
-    padding: 16px;
-    border-style: none;
+    border: 1px solid var(--cor-de-fundo);
     border-radius: 16px;
+    padding: 16px;
+    transition: 0.3s;
 }
 
 .correct {

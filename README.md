@@ -23,3 +23,9 @@
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168888313-d031e9e1-1449-4b73-bd3c-3102223097f3.png">
 </p>
+
+#### 🔹Repositório:
+#### Github: https://github.com/VictorSamuraiWol/meu_portfolio
+
+#### 🔹Deploy:
+#### Vercel: https://meu-portfolio-challenge-one-alura-oracle.vercel.app/
