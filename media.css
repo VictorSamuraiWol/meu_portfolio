@@ -446,6 +446,10 @@ utilize como referência os breakpoints @media abaixo*/
         padding: 10px;
         margin-top: 4px;
     }
+
+    .formcontato__form {
+        align-items: center;
+    }
     
     .formcontato__img {
         height: 300px;   
@@ -651,7 +655,6 @@ utilize como referência os breakpoints @media abaixo*/
     }
     
     .academic__courses {
-        /* box-sizing: border-box; */
         height: auto;
     }
 
