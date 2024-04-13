@@ -245,6 +245,10 @@ utilize como referência os breakpoints @media abaixo*/
     ::placeholder {
         font-size: 12px;
     }
+
+    .helperNome, .helperEmail, .helperAssunto, .helperMensagem {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -449,10 +453,12 @@ utilize como referência os breakpoints @media abaixo*/
     
     .formcontato__title {
         font-size: 18px;
+        text-align: center;
     }
     
     .formcontato__subtext {
         font-size: 12px;
+        text-align: center;
     }
     
     .formcontato__botao {
@@ -616,6 +622,16 @@ utilize como referência os breakpoints @media abaixo*/
         padding: 12px;
         margin-top: 4px;
     }
+
+    /* .formcontato__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formcontato__subtext {
+        text-align: center;
+    } */
     
     .formcontato__img {
         display: none;  
@@ -642,5 +658,14 @@ utilize como referência os breakpoints @media abaixo*/
         align-items: center;
         flex-direction: column;
         margin-left: 55px;
+    }
+    
+    .academic__courses {
+        /* box-sizing: border-box; */
+        height: auto;
+    }
+
+    #cursos {
+        height: 400px;
     }
 }

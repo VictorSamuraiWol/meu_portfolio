@@ -372,10 +372,12 @@ section.formcontato{
 .formcontato__form input {
     height: 56px;
     width: 296px;
+    color: var(--cor-primaria);
 }
 
 .formcontato__form textarea {
     height: 133px;
+    color: var(--cor-primaria);
 }
 
 .formcontato__form button {
