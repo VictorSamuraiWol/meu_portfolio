@@ -50,72 +50,18 @@ headerText.addEventListener('mouseout', ()=> {
 });
 
 //nav li
-menuListItem[0].addEventListener('mouseover', ()=> {
-    menuListItem[0].classList.add('addColor');
-    menuListItem[0].classList.remove('removeColor');
-    menuListItem[0].style.transformScale = '3';
-    menuListItem[0].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
-});
-menuListItem[0].addEventListener('mouseout', ()=> {
-    menuListItem[0].classList.add('removeColor');
-    menuListItem[0].classList.remove('addColor');
-    menuListItem[0].style.setProperty('text-shadow', '');
-});
-
-menuListItem[1].addEventListener('mouseover', ()=> {
-    menuListItem[1].classList.add('addColor');
-    menuListItem[1].classList.remove('removeColor');
-    menuListItem[1].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
-});
-menuListItem[1].addEventListener('mouseout', ()=> {
-    menuListItem[1].classList.add('removeColor');
-    menuListItem[1].classList.remove('addColor');
-    menuListItem[1].style.setProperty('text-shadow', '');
-});
-
-menuListItem[2].addEventListener('mouseover', ()=> {
-    menuListItem[2].classList.add('addColor');
-    menuListItem[2].classList.remove('removeColor');
-    menuListItem[2].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
-});
-menuListItem[2].addEventListener('mouseout', ()=> {
-    menuListItem[2].classList.add('removeColor');
-    menuListItem[2].classList.remove('addColor');
-    menuListItem[2].style.setProperty('text-shadow', '');
-});
-
-menuListItem[3].addEventListener('mouseover', ()=> {
-    menuListItem[3].classList.add('addColor');
-    menuListItem[3].classList.remove('removeColor');
-    menuListItem[3].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
-});
-menuListItem[3].addEventListener('mouseout', ()=> {
-    menuListItem[3].classList.add('removeColor');
-    menuListItem[3].classList.remove('addColor');
-    menuListItem[3].style.setProperty('text-shadow', '');
-});
-
-menuListItem[4].addEventListener('mouseover', ()=> {
-    menuListItem[4].classList.add('addColor');
-    menuListItem[4].classList.remove('removeColor');
-    menuListItem[4].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
-});
-menuListItem[4].addEventListener('mouseout', ()=> {
-    menuListItem[4].classList.add('removeColor');
-    menuListItem[4].classList.remove('addColor');
-    menuListItem[4].style.setProperty('text-shadow', '');
-});
-
-menuListItem[5].addEventListener('mouseover', ()=> {
-    menuListItem[5].classList.add('addColor');
-    menuListItem[5].classList.remove('removeColor');
-    menuListItem[5].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
-});
-menuListItem[5].addEventListener('mouseout', ()=> {
-    menuListItem[5].classList.add('removeColor');
-    menuListItem[5].classList.remove('addColor');
-    menuListItem[5].style.setProperty('text-shadow', '');
-});
+for (let i=0; i<menuListItem.length; i++) {
+    menuListItem[i].addEventListener('mouseover', ()=> {
+        menuListItem[i].classList.add('addColor');
+        menuListItem[i].classList.remove('removeColor');
+        menuListItem[i].style.setProperty('text-shadow', '2px 2px 0.5px var(--cor-cards)');
+    });
+    menuListItem[i].addEventListener('mouseout', ()=> {
+        menuListItem[i].classList.add('removeColor');
+        menuListItem[i].classList.remove('addColor');
+        menuListItem[i].style.setProperty('text-shadow', '');
+    });
+};
 
 //about
 titleBio.addEventListener('mouseover', ()=> {
