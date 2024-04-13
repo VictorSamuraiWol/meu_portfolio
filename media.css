@@ -312,6 +312,7 @@ utilize como referência os breakpoints @media abaixo*/
 
     .about__paragraph {
         font-size: 12px;
+        text-align: left;
     }
     
     .skills__title {
@@ -531,9 +532,8 @@ utilize como referência os breakpoints @media abaixo*/
     }
     
     .about__container {
-        padding: 16px 0;
+        padding: 16px 20px;
         width: 70vw;
-        text-align: center;
     }
 
     .skills__line {
@@ -651,7 +651,11 @@ utilize como referência os breakpoints @media abaixo*/
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 55px;
+        margin-left: 25px;
+    }
+
+    .about__paragraph{
+        text-align: center;
     }
     
     .academic__courses {
