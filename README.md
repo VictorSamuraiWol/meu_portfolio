@@ -12,6 +12,8 @@
 ## ✨ Features
 ✅ Bem vindos! Este é um projeto com o objetivo de criar um Portfólio utilizando HTML, CSS e JavaScript. Minha gratidão a Deus, Oracle e Alura pela oportunidade.
 
+✅ Welcome! This project aims to create a portfolio using HTML, CSS and JavaScript. My gratitude goes to God, Oracle and Alura for the opportunity.
+
 <a href="https://meu-portfolio-challenge-one-alura-oracle.vercel.app/" title="View Project now"> 📟 Clique aqui para visualizar a aplicação</a><br/>
 <a href="https://github.com/VictorSamuraiWol/meu_portfolio" title="View Repository now"> 📜 Clique aqui para visualizar o reposiório</a>
 
