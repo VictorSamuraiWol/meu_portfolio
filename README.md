@@ -2,6 +2,7 @@
 <img 
     src="assets/site-portfolio-alura.png"
     width="800"
+    style="border: 1px solid green; border-radius:5px"
 />
 </p>
 
