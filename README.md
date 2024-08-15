@@ -21,10 +21,10 @@
 - [Vercel](https://vercel.com/)
 
 ## ✔ Repositório no Github
-https://github.com/VictorSamuraiWol/meu_portfolio
+🔗 https://github.com/VictorSamuraiWol/meu_portfolio
 
 ## ✔ Deploy no Vercel
-https://meu-portfolio-challenge-one-alura-oracle.vercel.app/
+🔗 https://meu-portfolio-challenge-one-alura-oracle.vercel.app/
 
 ## 👨‍💻 Estudante Front End e AWS Cloud Computing
 
