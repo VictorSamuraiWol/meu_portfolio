@@ -19,14 +19,12 @@
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Github](https://github.com/)
 - [Vercel](https://vercel.com/)
-<br/>
 
 ## ✔ Repositório no Github
 https://github.com/VictorSamuraiWol/meu_portfolio
 
 ## ✔ Deploy no Vercel
 https://meu-portfolio-challenge-one-alura-oracle.vercel.app/
-<br/>
 
 ## 👨‍💻 Estudante Front End e AWS Cloud Computing
 
